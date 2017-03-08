@@ -1,6 +1,38 @@
 
 div {
+	color: white;
 	font-size: 20px;
 	margin: 0 auto;
 	text-align: center;
 }
+
+button {
+ 	margin: 10px; 
+	
+}
+
+body { 
+	background-color: #2f3f4f;
+	
+	/*background-repeat: no-repeat;*/
+}
+
+.roundedEdge { border-radius: 5px; color: black; }
+
+.headerClass { color: white; }
+
+.adBanner { 
+	margin: 10px;
+	opacity: .80;
+	color: white;
+
+	height: 45px;
+	width: 720px;
+	background-image: url(assets/images/720x90-Banner.jpg);  
+}
+.adBanner:hover {
+	opacity: 1;
+	color: tomato;
+}
+
+.renderedBtns {margin: 10px;}

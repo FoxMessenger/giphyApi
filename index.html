@@ -18,21 +18,26 @@
 
 </head>
 <body>
-
-    <div class="row">
-        <div class="jumbotron">
-		<h1>Giphy Anime Character Search</h1>
-		<div class='row col-12-md' id='rendered-buttons'></div>
-	
+    <div class='row'>
+        <div class='header'>
+		<h1 class="headerClass">Giphy Anime Character Search</h1>
+		<div class='row'>
+		<div class='btn adBanner'></div>
+		</div>
 		<div class='row'>
 			<div class='col-6-md'>
 				<form id='anime-form'>
-					<label for='anime-iput'>Anime Character</label>
-					<input type='text' id='anime-input'>
-					<input id='add-anime' type='submit'>
+					<label for='anime-input'>Anime Character</label>
+					<input class='roundedEdge' type='text' id='anime-input'>
+					<input class='btn' id='add-anime' type='submit'>
 				</form>
-				<div class='col-6-md' id='anime-view'></div>
+				<div class="Backgroundbody"></div>
+				
 			</div>
+			<div class='row col-12-md renderedBtns' id='rendered-buttons'>
+
+		</div>
+			<div class='col-6-md' id='anime-view'></div>
 		</div>
 	</div>
 </body>
